@@ -6,17 +6,13 @@ body {display: flex;
 
 main {flex-grow: 1;}
 
-header { flex-direction: row;
+header {flex-direction: row;
     background-color: orange;}
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-}
-.navbar >nav >ul >li {
-    display: inline;
-}
+.navbar {display: flex;
+    justify-content: space-between;}
+.navbar >nav >ul >li {display: inline;}
 
-footer {
-    flex-direction: b;
-}
+main {background-color: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/NGC_4414_%28NASA-med%29.jpg/726px-NGC_4414_%28NASA-med%29.jpg")}
+
+footer {flex-direction: row}
