@@ -2,17 +2,20 @@
 
 body {display: flex;
     flex-direction: column;
-    min-height: 100vh;}
+    min-height: 100vh;
+    color: cyan;}
 
 main {flex-grow: 1;}
 
 header {flex-direction: row;
-    background-color: orange;}
+    background-color: darkblue;}
 
 .navbar {display: flex;
     justify-content: space-between;}
 .navbar >nav >ul >li {display: inline;}
 
-main {background-color: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/NGC_4414_%28NASA-med%29.jpg/726px-NGC_4414_%28NASA-med%29.jpg")}
+main {background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/NGC_4414_%28NASA-med%29.jpg/726px-NGC_4414_%28NASA-med%29.jpg")}
 
-footer {flex-direction: row}
+footer {flex-direction: row;
+background-color: darkblue;
+}
